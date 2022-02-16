@@ -16,10 +16,6 @@ const connect = function () {
     // conn.write("Move: up");
   });
 
-  conn.on("timeout", () => {
-    console.log("you ded cuz you idled.");
-  });
-
   return conn;
 };
 
