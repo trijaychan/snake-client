@@ -20,11 +20,6 @@ const connect = function () {
     console.log("you ded cuz you idled.");
   });
 
-  conn.on("close", () => {
-    console.log("Goodbye!");
-  });
-
-
   return conn;
 };
 
