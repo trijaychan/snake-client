@@ -13,6 +13,7 @@ const connect = function () {
   conn.on("connect", () => {
     console.log("Connected!");
     conn.write("Name: TJD");
+    // conn.write("Move: up");
   });
 
   conn.on("timeout", () => {
